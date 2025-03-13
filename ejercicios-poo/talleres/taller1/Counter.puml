@@ -1,0 +1,13 @@
+@startuml
+
+class Counter
+{
+   - int count
+   + Counter()
+   + void increment()
+   + void decrement()
+   + int getCount()
+}
+
+
+@enduml
